@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-md navbar-light bg-light mb-4 p-3 shadow-sm">
+    <a class="navbar-brand ms-3 fw-bold text-primary" href="https://www.linkedin.com/in/sanjay-kodiyatar-484419233/" target="_blank">Sanjay</a>
+
+    <!-- Hamburger menu for mobile view -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+                <a class="nav-link fw-bold text-dark" href="/">Home</a> <!-- Bold link -->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link fw-bold text-dark" href="/list-todos">Todos</a> <!-- Bold link -->
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link btn btn-outline-primary fw-bold" href="/logout">Logout</a> <!-- Bold button -->
+            </li>
+        </ul>
+    </div>
+</nav>
